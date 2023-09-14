@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - adding a + b
- * Return: 0
+ * Return: x + y
  */
 
 int add(int  x, int y)
