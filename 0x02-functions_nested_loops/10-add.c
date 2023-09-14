@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- * main - adding a + b
+ * add- adding to numbers and return the summition
+ * @x: int number
+ * @y: int number which will be added to x
  * Return: x + y
  */
 
