@@ -1,4 +1,4 @@
 #include "main.h"
-float add( float x, float y){
+int add(int  x, int y){
 	return (x+y);
 }
