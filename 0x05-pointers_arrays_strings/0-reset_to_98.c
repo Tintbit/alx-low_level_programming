@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - takes var and change it's value to 98
+ * reset_to_98- takes pointer *m and change it's value to 98
  * @m: pointer type to int
  *
  * Return: new, alternative value of a passed var

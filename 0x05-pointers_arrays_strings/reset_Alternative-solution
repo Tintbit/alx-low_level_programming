@@ -1,0 +1,4 @@
+void reset_to_98(int *n)
+{
+	*n=98;
+} // no need for return; because pointers will access the real address of the var at the memory and change it's vlue! that what is needed here!
