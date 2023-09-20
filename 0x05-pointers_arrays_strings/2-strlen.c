@@ -1,6 +1,7 @@
 #include <string.h>
+
 /**
- * strlen - a function to return the length of var
+ * _strlen - a function to return the length of var
  * @str: pointer that holds string value
  *
  * Return: len
