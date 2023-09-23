@@ -4,7 +4,7 @@
  * @s1: input value
  * @s2: input value
  *
- * Return:  s1[i] - s2[i] if s1[i] != s2[i], else 0 
+ * Return:  s1[i] - s2[i] if s1[i] != s2[i], else (0)
  */
 int _strcmp(char *s1, char *s2)
 {
