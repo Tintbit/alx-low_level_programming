@@ -1,3 +1,2 @@
 #!/bin/bash
-#gcc -c "$CFILE" -o output | fname=$(echo $CFILE|cut -d'.' -f1)| newname=${fname}.o | touch $newname
 gcc -c $CFILE -o output | xargs mv "output" $(echo $CFILE | cut -d '.' -f1).o 
