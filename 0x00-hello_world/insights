@@ -1,0 +1,11 @@
+# 0x00-Hellow_World!
+#
+# To Solve task 1-compiler: 
+# y need to notice that y don't know "$CFILE" name, that file in unknown to you! so the file.o(exec file from compilation without linking) needs to be known or to use some regex or shell script/ variable or even redirections to solve this 'unknown file name' issue so y can have this file output 'name' matching - > input file 'name' but not '.c' rather '.o'! so same name but different suffix
+
+using shell script:
+#!/bin/bash
+gcc -c $CFILE -o output | xargs mv output $(echo $CFILE | cut -d '.' -f1).o 
+
+or: 
+gcc -c "$CFILE" -o "$CFILE.o" | fname=$(echo $CFILE.o|cut -d'.' -f1)| newname=${fname}.o | touch $newname
