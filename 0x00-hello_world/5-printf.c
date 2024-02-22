@@ -1,10 +1,9 @@
 #include <stdio.h>
-
 /**
- * main - returns int value, takes no arg
- * description: using printf built-in function!
+ * main - Printing out some stuff to std out
+ * description: using print if (prac things!)
  *
- * Retrun: Always (0)
+ * Return: Always (0)
  */
 int main(void)
 {
