@@ -1,1 +1,1 @@
- this 0x00-hellow_world in C!
+ this 0x00-hello_world in C!
