@@ -1,2 +1,0 @@
-#!/bin/bash
-gcc -S -masm=intel $CFILE -o output | xargs mv "output" $(echo $CFILE | cut -d '.' -f1).s
