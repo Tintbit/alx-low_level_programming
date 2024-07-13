@@ -17,7 +17,7 @@ int main(void)
 		n++;
 	}
 
-	n = 'A'; /*yes 'A' is just another char which has int value*/
+	n = 'A'; /*yes 'A' is char which has int value*/
 	while (n <= 'Z')
 	{
 		putchar(n);
