@@ -9,10 +9,10 @@
 int main(void)
 {
 	int n;
-	char c;
+	/*char c;*/
 
 	n = 97; /* ascii char for 'a' */
-	c = 'a';
+	/*c = 'a';*/
 	while (n <= 122)
 	{
 		printf("%c", n);
