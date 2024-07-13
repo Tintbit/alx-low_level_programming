@@ -1,3 +1,5 @@
+----
+
 **PJ Name:**
 0x01-variables_if_else_while.
 
@@ -8,6 +10,4 @@ alx_low_level_programming.
 first project after 0x0
 
 ----
-***PJ Discription***
-
-----
+<center>***PJ Discription***</center>
