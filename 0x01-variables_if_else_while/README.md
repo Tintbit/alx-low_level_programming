@@ -10,4 +10,4 @@ alx_low_level_programming.
 first project after 0x0
 
 ----
-<center><h2>PJ Discription </h2></center>
+<h2 align="center">PJ Discription </h2>
